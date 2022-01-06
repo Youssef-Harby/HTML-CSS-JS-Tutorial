@@ -7,123 +7,119 @@
     <title>HTML Day 2</title>
 </head>
 <body style="background-color: burlywood; font-family: century gothic;" >
+    <form action="" method="get">
         <table border="1px" style="border: 1px solid black; border-collapse: collapse;">
-            <form action="" method="get">
-                <tr>
-                    <td>
-                        <label for="unameID" style="font-weight: bold;">Name: </label>
-                    </td>
-                    <td>
-                        <input type="text" name="user_name" id="unameID" required placeholder="Your Full Name">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="emailID" style="font-weight: bold;">Email: </label>
-                    </td>
-                    <td>
-                        <input type="text" name="user_email" id="emailID" required placeholder="name@example.com">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="passID" style="font-weight: bold;">Password: </label>
-                    </td>
-                    <td>
-                        <input type="password" name="user_pass" id="passID" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="apprvlID" style="font-weight: bold;">Approval Required: </label>
-                        <p style="margin: auto; font-size: small;">Click on the button or text <br> to check/uncheck.</p>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="user_apprvl" id="apprvlID">
-                        <label for="apprvlID">Do you approve?</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="choiceIDB" style="font-weight: bold;">Pick Your Favorite: </label>
-                        <p style="margin: auto; font-size: small;">Click on the button or text <br> to select.</p>
-                    </td>
-                    <td>
-                        <input type="radio" name="user_choice" id="choiceIDA" value="A">
-                        <label for="choiceIDA">Choice A</label>
-                        <br>
-                        <input type="radio" name="user_choice" id="choiceIDB" value="B" checked>
-                        <label for="choiceIDB">Choice B</label>
-                        <br>
-                        <input type="radio" name="user_choice" id="choiceIDC" value="C">
-                        <label for="choiceIDC">Choice C</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="cntyID" style="font-weight: bold;">Popup Menu: </label>
-                    </td>
-                    <td>
-                        <select name="user_cntry_name" id="cntyID">
-                            <optgroup label="Texas -- TX">
-                                <option value="TX01">Texas -- TX</option>
-                                <option value="TX02">Texas Name 02</option>
-                            </optgroup>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="listID" style="font-weight: bold; ">List: </label>
-                        <!-- <p style="margin: auto;">Click on the button or text <br> to check/uncheck.</p> -->
-                        <dl style="margin: auto;">
-                            <dt>
-                                <p style="margin: 5px; font-size: small;">Setup Options: </p>
-                            </dt>
-                            <dd>
-                                <li style="font-size: small;">Number of rows to display</li>
-                                <li style="font-size: small;">Allow Multi-select</li>
-                            </dd>
-                        </dl>
-                    </td>
-                    <td>
-                        <select name="user_cntry_list" id="listID" multiple>
-                            <optgroup>
-                                <option value="CA">California -- CA</option>
-                                <option value="CO">Colorado -- CO</option>
-                                <option value="CN">Connecticut -- CN</option>
-                                <option value="DA">Dalifornia -- DA</option>
-                                <option value="DO1">Dolorado -- DO</option>
-                                <option value="DO2">Dolorado -- DO</option>
-                                <option value="DO3">Dolorado -- DO</option>
-                            </optgroup>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="KMID" style="font-weight: bold;">Field Ignored by KM </label>
-                    </td>
-                    <td>
-                        <input type="number" name="KM" id="KMID" placeholder="10,384" min="1">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="feedbackID" style="font-weight: bold;">Text Area </label>
-                    </td>
-                    <td>
-                        <textarea name="" id="feedbackID" cols="35" rows="5" placeholder="Please Write Your Feedback."></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td rowspan="1" colspan="2" >
-                        <input type="submit" value="Save">
-                        <input type="reset" value="Cancel">
-                        <input type="button" value="Resize">
-                    </td>
-                </tr>
-            </form>
+            <tr>
+                <td>
+                    <label for="unameID" style="font-weight: bold;">Name: </label>
+                </td>
+                <td>
+                    <input type="text" name="user_name" id="unameID" required placeholder="Your Full Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="emailID" style="font-weight: bold;">Email: </label>
+                </td>
+                <td>
+                    <input type="text" name="user_email" id="emailID" required placeholder="name@example.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="passID" style="font-weight: bold;">Password: </label>
+                </td>
+                <td>
+                    <input type="password" name="user_pass" id="passID" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="apprvlID" style="font-weight: bold;">Approval Required: </label>
+                    <p style="margin: auto; font-size: small;">Click on the button or text <br> to check/uncheck.</p>
+                </td>
+                <td>
+                    <input type="checkbox" name="user_apprvl" id="apprvlID">
+                    <label for="apprvlID">Do you approve?</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="choiceIDB" style="font-weight: bold;">Pick Your Favorite: </label>
+                    <p style="margin: auto; font-size: small;">Click on the button or text <br> to select.</p>
+                </td>
+                <td>
+                    <input type="radio" name="user_choice" id="choiceIDA" value="A">
+                    <label for="choiceIDA">Choice A</label>
+                    <br>
+                    <input type="radio" name="user_choice" id="choiceIDB" value="B" checked>
+                    <label for="choiceIDB">Choice B</label>
+                    <br>
+                    <input type="radio" name="user_choice" id="choiceIDC" value="C">
+                    <label for="choiceIDC">Choice C</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cntyID" style="font-weight: bold;">Popup Menu: </label>
+                </td>
+                <td>
+                    <select name="user_cntry_name" id="cntyID">
+                        <optgroup label="Texas -- TX">
+                            <option value="TX01">Texas -- TX</option>
+                            <option value="TX02">Texas Name 02</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="listID" style="font-weight: bold; ">List: </label>
+                    <!-- <p style="margin: auto;">Click on the button or text <br> to check/uncheck.</p> -->
+                    <dl style="margin: auto;">
+                        <dt>
+                            <p style="margin: 5px; font-size: small;">Setup Options: </p>
+                        </dt>
+                        <dd>
+                            <li style="font-size: small;">Number of rows to display</li>
+                            <li style="font-size: small;">Allow Multi-select</li>
+                        </dd>
+                    </dl>
+                </td>
+                <td>
+                    <select name="user_cntry_list" id="listID" multiple>
+                        <optgroup>
+                            <option value="CA">California -- CA</option>
+                            <option value="CO">Colorado -- CO</option>
+                            <option value="CN">Connecticut -- CN</option>
+                            <option value="DA">Dalifornia -- DA</option>
+                            <option value="DO1">Dolorado -- DO</option>
+                            <option value="DO2">Dolorado -- DO</option>
+                            <option value="DO3">Dolorado -- DO</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="KMID" style="font-weight: bold;">Field Ignored by KM </label>
+                </td>
+                <td>
+                    <input type="number" name="KM" id="KMID" placeholder="10,384" min="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="feedbackID" style="font-weight: bold;">Text Area </label>
+                </td>
+                <td>
+                    <textarea name="" id="feedbackID" cols="35" rows="5" placeholder="Please Write Your Feedback."></textarea>
+                </td>
+            </tr>
         </table>
+        <input type="submit" value="Save">
+        <input type="reset" value="Cancel">
+        <input type="button" value="Resize">
+    </form>
 </body>
 </html>
