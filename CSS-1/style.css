@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: black;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    /* The Allign */
+    justify-content: center; 
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 60px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: rgba(68, 178, 206, 1);
+}
+
+button {
+    /* all: initial; */
+    padding: 9px 25px;
+    background-color: rgba(68, 178, 206, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    /* outline: none; */
+    /* display:block; */
+}
+
+button:hover {
+    background-color: rgba(68, 178, 206, 0.8);
+ }
+
+.sec01 div {
+    text-align: center;
+    width: 100%;
+    padding-top: 50vmin;
+    padding-bottom: 20vmin;
+    margin-top: 10px;
+    margin-bottom: 20;
+    background-image: url(./img/cover-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-clip: padding-box; */
+}
+.sec01 h1{
+    background-color: transparent;
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+}
+
+.sec02 {
+    flex: left;
+}
+
+.sec02 table tr th {
+    background-color: azure;
+    padding: 3vmin;
+}
+
+.sec02 table p {
+    color: black;
+}
