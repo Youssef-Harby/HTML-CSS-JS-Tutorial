@@ -64,6 +64,11 @@ button:hover {
     background-color: rgba(68, 178, 206, 0.8);
  }
 
+ .h1title {
+     text-align: center;
+     margin-top: 40px;
+ }
+
 .sec01 div {
     text-align: center;
     width: 100%;
@@ -136,4 +141,100 @@ button:hover {
     width: 50%;
     height: 100%;
     object-fit:initial;
+}
+
+
+.sec03 div {
+    float: none;
+    clear: both;
+    text-align: center;
+    width: 84%;
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-image: url(../HTML-1/img/pexels-andrew-neel-2859169.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-clip: padding-box; */
+}
+.sec03 h1{
+    /* background-color: transparent; */
+    /* background-color: aqua; */
+    /* margin: 0; */
+    /* padding: 0; */
+    font-size: xx-large;
+}
+
+.sec04 div {
+    float: none;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-clip: padding-box; */
+}
+.sec04 h1{
+    /* background-color: transparent; */
+    /* background-color: aqua; */
+    /* margin: 0; */
+    /* padding: 0; */
+    color: black;
+    font-size: xx-large;
+}
+
+.sec05 div {
+    float: none;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* background-color: azure; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-clip: padding-box; */
+}
+.sec04 h1{
+    /* background-color: transparent; */
+    /* background-color: aqua; */
+    /* margin: 0; */
+    /* padding: 0; */
+    color: black;
+    font-size: xx-large;
+}
+
+/* footer */
+footer {
+    display: flex;
+    /* The Allign */
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(34, 34, 34);
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.footer-logo {
+    cursor: pointer;
+    width: 120px;
+    height: auto;
 }
