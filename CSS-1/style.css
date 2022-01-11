@@ -77,22 +77,63 @@ button:hover {
     /* background-clip: padding-box; */
 }
 .sec01 h1{
-    background-color: transparent;
+    /* background-color: transparent; */
     /* background-color: aqua; */
     margin: 0;
     padding: 0;
     font-size: xx-large;
 }
 
-.sec02 {
-    flex: left;
+.sec02{ 
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+
+.sec02 table{
+    float:left;
+    margin: 2vmin;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+
 }
 
 .sec02 table tr th {
     background-color: azure;
     padding: 3vmin;
+    /* height: 100px; */
+    /* width: 100px; */
+    border-radius: 8px;
+}
+
+.sec02 table tr th img{
+    width: 80%;
+    height: 80%;
+    object-fit:scale-down;
 }
 
 .sec02 table p {
     color: black;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.sec02 li {
+    background-color:brown;
+    color: black;
+    float: left;
+    border-radius: 2px;
+    padding: 20%;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    object-fit: initial;
+
+}
+.sec02 li img{
+    width: 50%;
+    height: 100%;
+    object-fit:initial;
 }
