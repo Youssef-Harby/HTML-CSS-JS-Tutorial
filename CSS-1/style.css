@@ -205,13 +205,16 @@ button:hover {
     background-size: cover;
     /* background-clip: padding-box; */
 }
-.sec04 h1{
+.sec05 h1{
     /* background-color: transparent; */
     /* background-color: aqua; */
     /* margin: 0; */
     /* padding: 0; */
-    color: black;
     font-size: xx-large;
+}
+
+.sec05 p{
+    margin: 1%;
 }
 
 /* footer */
