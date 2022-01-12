@@ -9,5 +9,7 @@ while (age = prompt('How old are you?', 1)) {
         alert("Grown");
     else if (age > 50)
         alert("Old");
+    else
+        console.log("invalid" + age)
 }
 
