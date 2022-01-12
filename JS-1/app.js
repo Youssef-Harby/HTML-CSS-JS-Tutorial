@@ -1,6 +1,6 @@
 while (age = prompt('How old are you?', 1)) {
     if (age <= 0)
-        alert("enter a valid age")
+        alert("enter a valid age");
     else if (age >= 1 && age <= 10)
         alert("Child");
     else if (age >= 11 && age <= 18)
@@ -10,6 +10,6 @@ while (age = prompt('How old are you?', 1)) {
     else if (age > 50)
         alert("Old");
     else
-        console.log("invalid" + age)
+        console.log("invalid" + age);
 }
 
