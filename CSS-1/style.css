@@ -93,6 +93,7 @@ button:hover {
     margin: auto;
     width: 90%;
     padding: 10px;
+    background-color: aqua;
 }
 
 
@@ -126,9 +127,7 @@ button:hover {
 }
 
 .sec02 li {
-    background-color:brown;
-    color: black;
-    float: left;
+    /* float: left; */
     border-radius: 2px;
     padding: 20%;
     margin: 20px;
@@ -143,16 +142,19 @@ button:hover {
     object-fit:initial;
 }
 
-
+.sec03 {
+    clear: both;
+    background-color: rgb(34, 34, 34);
+}
 .sec03 div {
-    float: none;
+    /* float: none; */
     clear: both;
     text-align: center;
-    width: 84%;
+    /* width: 84%; */
     padding-top: 20vmin;
     padding-bottom: 20vmin;
     margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-left: 8%;
     margin-right: 8%;
     background-image: url(../HTML-1/img/pexels-andrew-neel-2859169.jpg);
@@ -175,7 +177,7 @@ button:hover {
     width: 100%;
     padding-top: 20vmin;
     padding-bottom: 20vmin;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 20px;
     background-color: azure;
     background-repeat: no-repeat;
