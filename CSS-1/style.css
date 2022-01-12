@@ -115,7 +115,7 @@ button:hover {
 
 .sec02 table tr th img{
     width: 80%;
-    height: 80%;
+    /* height: 80%; */
     object-fit:scale-down;
 }
 
@@ -123,22 +123,6 @@ button:hover {
     color: black;
     padding: 20px;
     font-weight: lighter;
-}
-
-.sec02 li {
-    /* float: left; */
-    border-radius: 2px;
-    padding: 20%;
-    margin: 20px;
-    width: 300px;
-    height: 200px;
-    object-fit: initial;
-
-}
-.sec02 li img{
-    width: 50%;
-    height: 100%;
-    object-fit:initial;
 }
 
 .sec03 {
