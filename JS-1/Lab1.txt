@@ -1,0 +1,12 @@
+Using if..else, write the code which gets the "Age" via prompt and then shows in alert:
+
+*enter a valid age , if age less than or equal 0.
+*child, if age greater than or equal 1 and less than or equal 10.
+*Teenager,  if age greater than or equal 11 and less than or equal 18.
+*Grown, if age greater than or equal 19 and less than or equal 50.
+*Old, if age greater than 50.
+
+Write a program that :
+*takes users' First name and Last name and then Confirms users' Full name
+* if the name is confirmd, take the users' birth year ,calculate his age and alert the full name 
+and the age otherwise repeat first step.
