@@ -1,0 +1,41 @@
+body {
+    font-family: century gothic;
+    background-color: #e2e8f0;
+    margin-top: 20px; padding: 15px;
+}
+
+.block1 {
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+    width: 100%;
+}
+.block1 div {
+    float:left;
+    border-radius: 5px; 
+    background-color: white;
+    border-radius: 5px; 
+    padding: 1vw;
+    margin: 10px;
+}
+
+.block2 {
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.block2 div {
+    clear: all;
+    border-radius: 5px; 
+    background-color: white;
+    border-radius: 5px; 
+    padding: 1vw;
+    margin: 10px;
+}
+
+.links table {
+    width: 321px;
+    height: 100%;
+}

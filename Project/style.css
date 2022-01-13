@@ -1,0 +1,28 @@
+body {
+    font-family: century gothic;
+    background-color: rgb(220, 220, 220);
+}
+
+.block1 {
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+}
+.block1 table {
+    float:left;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+}
+
+.block2 {
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+}
+.block2 table {
+    float:left;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+}
