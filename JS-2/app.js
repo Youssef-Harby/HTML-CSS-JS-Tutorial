@@ -1,18 +1,27 @@
-// check first and last name
+
 do {
-    firstName = prompt('What is your firs name?');
-    lastName = prompt('What is your last name?');
-    correctFullName = confirm("Your Full Name is  " + firstName + " " + lastName + " ?")
+    do {
+        firstName = prompt('What is your firs name?');
+        lastName = prompt('What is your last name?');
+        if (firstName == null || firstName == "" || lastName == null || lastName == "") {
+            alert("You must enter your name into the prompt box!");
+        } else if (!/^[a-zA-Z]+$/.test(firstName) || !/^[a-zA-Z]+$/.test(lastName)) {
+            alert("Please only enter letters");
+        } else {
+            console.log(firstName + " " + lastName)
+        }
+    }
+    while (firstName == null || firstName == "" || lastName == null || lastName == "" || !/^[a-zA-Z]+$/.test(firstName) || !/^[a-zA-Z]+$/.test(lastName));
+    correctFullName = confirm("Your Full Name is  " + firstName + " " + lastName + " ?");
 }
 while (correctFullName == false);
 
-// check age and alert the result
-
 do {
     bdYear = prompt('Write your birthday year please', 1998);
-    age = 2022 - bdYear
+    currentYear = new Date().getFullYear()
+    age = currentYear - bdYear
     if (age < 18) {
-        alert('You are less than 18')
+        alert('You are less than 18');
     } else {
         alert("Hi " + firstName + " " + lastName + ", your age is " + age);
     }
