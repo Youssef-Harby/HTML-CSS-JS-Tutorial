@@ -1,6 +1,6 @@
 
 function sumInput() {
-    let rule = true;
+    let rule = false;
     const inputNums = [];
     // console.log(inputNums);
     // console.log(typeof inputNums);

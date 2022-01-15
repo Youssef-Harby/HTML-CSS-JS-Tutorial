@@ -17,13 +17,18 @@ do {
 while (correctFullName == false);
 
 do {
-    bdYear = prompt('Write your birthday year please', 1998);
+    bdYear = +prompt('Write your birthday year please', 1998);
     currentYear = new Date().getFullYear()
     age = currentYear - bdYear
     if (age < 18) {
         alert('You are less than 18');
+    } else if (bdYear == null || bdYear == "") {
+        alert("You must enter your birthday year into the prompt box!");
+    } else if (!bdYear) {
+        alert("You must enter a valid birthday year into the prompt box!");
     } else {
         alert("Hi " + firstName + " " + lastName + ", your age is " + age);
     }
+
 }
-while (age < 18);
+while (age < 18 || bdYear == "" || bdYear == null || !bdYear);
